@@ -1,0 +1,244 @@
+.inquiry {
+  position: relative;
+}
+.inquiry .inquiryList {
+  background: #fff;
+  position: relative;
+  isolation: isolate;
+  margin-bottom: 10%;
+}
+@media screen and (max-width: 767px) {
+  .inquiry .inquiryList {
+    margin-bottom: 50px;
+  }
+}
+.inquiry .listBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inquiry .listBox .item {
+  padding: 50px;
+  width: 50%;
+  border: #E5E5E5 1px solid;
+  margin: -1px -1px 0 0;
+  display: flex;
+  align-items: stretch;
+}
+@media screen and (max-width: 1027px) {
+  .inquiry .listBox .item {
+    padding: 30px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 767px) {
+  .inquiry .listBox .item {
+    padding: 20px;
+  }
+}
+.inquiry .listBox .item .pic {
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 1027px) {
+  .inquiry .listBox .item .pic {
+    width: 100%;
+  }
+}
+.inquiry .listBox .item .pic img {
+  max-width: 200px;
+}
+.inquiry .listBox .item .info {
+  width: 40%;
+  max-width: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1027px) {
+  .inquiry .listBox .item .info {
+    width: 100%;
+  }
+}
+.inquiry .listBox .item .info a {
+  display: block;
+  margin-bottom: 20px;
+}
+.inquiry .listBox .item .info a:hover .title {
+  color: #9FC91B;
+}
+.inquiry .listBox .item .info .title {
+  color: #1F1F1F;
+  line-height: 1.2;
+  transition: all 0.3s ease;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1027px) {
+  .inquiry .listBox .item .info .title {
+    font-size: 1.625rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .inquiry .listBox .item .info .title {
+    font-size: 1.25rem;
+  }
+}
+.inquiry .listBox .item .info .description {
+  color: #212121;
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 767px) {
+  .inquiry .listBox .item .info .description {
+    font-size: 1rem;
+  }
+}
+.inquiry .listBox .item .btnBox {
+  display: flex;
+}
+.inquiry .listBox .item .btnBox .qtyBox {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: center;
+}
+.inquiry .listBox .item .btnBox .qtyBox input {
+  font-size: 18px;
+  color: #202020;
+  text-align: center;
+  background: #fff;
+  border: #E7E7EB 1px solid;
+  border-width: 1px 0;
+}
+.inquiry .listBox .item .btnBox .qtyBox button {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: #D3D3D3;
+  border: #E7E7EB 1px solid;
+  transition: all 0.3s ease;
+}
+.inquiry .listBox .item .btnBox .qtyBox button::before {
+  content: "";
+  width: 10px;
+  height: 2px;
+  display: block;
+  background: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+.inquiry .listBox .item .btnBox .qtyBox button.add::after {
+  content: "";
+  width: 2px;
+  height: 10px;
+  display: block;
+  background: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+.inquiry .listBox .item .btnBox .qtyBox button:hover {
+  background: #9FC91B;
+}
+.inquiry .listBox .item .btnBox .del {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: relative;
+  line-height: 1;
+  text-align: center;
+  padding: 0;
+  background: #9FC91B;
+  flex-shrink: 0;
+  margin-left: 5px;
+  transition: all 0.3s ease;
+}
+.inquiry .listBox .item .btnBox .del::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  top: 0;
+  bottom: 0%;
+  right: 0;
+  z-index: 0;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.inquiry .listBox .item .btnBox .del::after {
+  content: "\e80b";
+  line-height: 0;
+  font-size: 14px;
+  height: 15px;
+  color: #fff;
+  line-height: 1;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  transition: all 0.3s ease;
+}
+.inquiry .listBox .item .btnBox .del:hover {
+  background: #000;
+}
+.inquiry .blockTitleBox {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto 4%;
+}
+.inquiry .blockTitleBox .title {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  color: #000;
+}
+@media screen and (max-width: 1440px) {
+  .inquiry .blockTitleBox .title {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 1027px) {
+  .inquiry .blockTitleBox .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .inquiry .blockTitleBox .title {
+    margin-bottom: 10px;
+  }
+}
+.inquiry .blockTitleBox .description {
+  color: #333333;
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 767px) {
+  .inquiry .blockTitleBox .description {
+    font-size: 1rem;
+  }
+}
+.inquiry .formBox {
+  padding: 5% 0;
+  background: linear-gradient(to bottom, rgb(250, 250, 250) 0%, rgb(255, 255, 255) 100%);
+}
+@media screen and (max-width: 1027px) {
+  .inquiry .formBox {
+    width: 100%;
+    order: 3;
+  }
+}
+
+.pageBtnBox {
+  padding: 0;
+  border: none;
+}/*# sourceMappingURL=inquiry.css.map */

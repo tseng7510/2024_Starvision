@@ -1,0 +1,350 @@
+.banner {
+  position: relative;
+}
+.banner .item {
+  position: relative;
+}
+.banner .pic img {
+  min-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.banner .info {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  line-height: 1.2;
+}
+.banner .title {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1027px) {
+  .banner .title {
+    margin-bottom: 10px;
+  }
+}
+.banner .description {
+  max-width: 50%;
+  line-height: 1.7;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1027px) {
+  .banner .description {
+    -webkit-line-clamp: 2;
+  }
+}
+.banner .more {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0.7;
+  color: #fff;
+  font-size: 1rem;
+  z-index: 9;
+  height: 40px;
+  border-radius: 8px;
+  font-weight: 600;
+  position: relative;
+  border: #fff 1px solid;
+  padding: 0 20px;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 1027px) {
+  .banner .more {
+    font-size: 13px;
+    max-width: 160px;
+    height: 40px;
+  }
+}
+.banner .more::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  background: #9FC91B;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.banner .more:hover {
+  border-color: #9FC91B;
+}
+.banner .more:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.application .pageContent {
+  padding-bottom: 0;
+}
+.application .topInfo {
+  position: relative;
+}
+.application .topInfo .bg {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  z-index: -1;
+  line-height: 0;
+  max-width: 50%;
+}
+.application .topInfo .container {
+  padding-bottom: 8%;
+  display: flex;
+  isolation: isolate;
+  position: unset;
+}
+@media screen and (max-width: 767px) {
+  .application .topInfo .container {
+    flex-direction: column;
+  }
+}
+.application .sideBox {
+  margin: 0 0 30px 0;
+  padding: 0 0 30px 0;
+  border: #CFD0D1 1px solid;
+  border-width: 0 0 1px 0;
+}
+@media screen and (min-width: 768px) {
+  .application .sideBox {
+    width: 30%;
+    max-width: 370px;
+    margin: 0 5% 0 0;
+    padding: 0 4% 0 0;
+    border-width: 0 1px 0 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .application .sideBox {
+    width: 100%;
+  }
+}
+.application .sideBox .title {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 1440px) {
+  .application .sideBox .title {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 1027px) {
+  .application .sideBox .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .application .sideBox .title {
+    margin-bottom: 10px;
+  }
+}
+.application .sideBox .now {
+  padding: 10px 20px;
+  color: #FFF;
+  background: #9FC91B;
+  font-size: 1.25rem;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .application .sideBox .now {
+    display: none;
+  }
+}
+.application .sideBox .now::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #FFF transparent transparent transparent;
+}
+.application .sideBox .menu {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .application .sideBox .menu {
+    display: none;
+  }
+}
+.application .sideBox .menu button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font-weight: 500;
+  color: #666666;
+  font-size: 1.125rem;
+  padding: 6px 0;
+}
+@media screen and (max-width: 767px) {
+  .application .sideBox .menu button {
+    border: #CFD0D1 1px solid;
+    border-width: 0 1px 1px;
+    text-align: center;
+    padding: 10px;
+    background: #eeeeee;
+  }
+}
+.application .sideBox .menu button:hover, .application .sideBox .menu button.active {
+  color: #9FC91B;
+}
+.application .contentBox {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .application .contentBox {
+    width: 70%;
+    margin-bottom: 0px;
+  }
+}
+.application .contentBox .content h1{
+   font-size: 3.4rem;
+}
+@media screen and (max-width: 1440px) {
+.application .contentBox .content h1{
+   font-size: 3rem;
+}
+}
+@media screen and (max-width: 767px) {
+.application .contentBox .content h1{
+   font-size: 2.25rem;
+}
+}
+.application .contentBox .content {
+  display: none;
+}
+.application .contentBox .content.active {
+  display: block;
+}
+.application .contentBox .blockTitle {
+  font-size: 3.375rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1027px) {
+  .application .contentBox .blockTitle {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .application .contentBox .blockTitle {
+    font-size: 1.625rem;
+    margin-bottom: 20px;
+  }
+}
+.application .contentBox .description {
+  color: #333333;
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 767px) {
+  .application .contentBox .description {
+    font-size: 1rem;
+  }
+}
+.application .products {
+  background: #EFEFEF;
+  padding: 7% 0 7%;
+}
+@media screen and (max-width: 767px) {
+  .application .products {
+    padding: 50px 0;
+  }
+}
+.application .products .blockTitle {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: tabletpx) {
+  .application .products .blockTitle {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .application .products .blockTitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+}
+.application .products .listBox .item {
+  padding: 0 20px;
+}
+.application .products .listBox a {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.application .products .listBox a:hover .title {
+  color: #9FC91B;
+}
+.application .products .listBox .pic {
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+.application .products .listBox .title {
+  color: #000;
+  line-height: 1.2;
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: tabletpx) {
+  .application .products .listBox .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .application .products .listBox .title {
+    font-size: 1.25rem;
+  }
+}
+.application .products .slick-arrow {
+  width: 25px;
+  height: 65px;
+  transition: all 0.3s ease;
+  padding: 0;
+  position: absolute;
+  background: none;
+  top: 30%;
+  z-index: 9;
+  right: calc(100% - 50px);
+}
+.application .products .slick-arrow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  display: block;
+  -webkit-mask: url("../images/icon/icon_arrow_.svg") center no-repeat;
+          mask: url("../images/icon/icon_arrow_.svg") center no-repeat;
+  background: #9FC91B;
+}
+.application .products .slick-arrow.slick-next {
+  right: auto;
+  left: calc(100% - 50px);
+}
+.application .products .slick-arrow.slick-next::before {
+  transform: scaleX(-1);
+}/*# sourceMappingURL=application.css.map */

@@ -1723,6 +1723,13 @@ button:focus {
   max-width: 370px;
   margin-bottom: 40px;
 }
+.footerBox .top .info a {
+  color: #cccccc;
+  transition: all 0.3s ease;
+}
+.footerBox .top .info a:hover {
+  color: #9fc91b;
+}
 .footerBox .top .info .title {
   font-size: 1.3125rem;
   font-weight: 700;

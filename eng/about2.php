@@ -115,7 +115,6 @@
               <div class="container">
                 <div class="title wow fadeInUp" data-wow-delay="0s">Material Management</div>
                 <div class="description wow fadeInUp" data-wow-delay="0.2s">The Laser Inspection on three axes eliminates backlash of ball screws, resulting in high machining accuracy.</div>
-                <div class="pic wow fadeInUp" data-wow-delay="0.4s"><img src="../images/in/about_2_3.jpg" alt=""></div>
               </div>
             </div>
 

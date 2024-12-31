@@ -68,6 +68,15 @@
               <li>
                 <a href="#" target="_blank" class="whatsapp"></a>
               </li>
+              <li>
+                <a href="#" target="_blank" class="youtube"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="linkedin"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="instagram"></a>
+              </li>
             </ul>
           </div>
         </div>

@@ -1936,6 +1936,8 @@ button:focus {
   height: 43px;
   overflow: hidden;
   transition: all 0.3s ease;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
 @media screen and (max-width: 1027px) {
   .footerBox .shareBox ul a {
@@ -1946,8 +1948,8 @@ button:focus {
 .footerBox .shareBox ul a::before {
   content: '';
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
   background: #fff;
   transition: all 0.3s ease;
 }
@@ -1963,16 +1965,8 @@ button:focus {
   mask: url('../images/icon/icon_line.svg') center no-repeat;
 }
 .footerBox .shareBox ul li .wechat::before {
-  width: 28px;
-  height: 28px;
   -webkit-mask: url('../images/icon/icon_wechat.svg') center no-repeat;
   mask: url('../images/icon/icon_wechat.svg') center no-repeat;
-}
-@media screen and (max-width: 1027px) {
-  .footerBox .shareBox ul li .wechat::before {
-    width: 24px;
-    height: 24px;
-  }
 }
 .footerBox .shareBox ul li .whatsapp::before {
   -webkit-mask: url('../images/icon/icon_whatsapp.svg') center no-repeat;
@@ -1985,6 +1979,10 @@ button:focus {
 .footerBox .shareBox ul li .linkedin::before {
   -webkit-mask: url('../images/icon/icon_linkedin.svg') center no-repeat;
   mask: url('../images/icon/icon_linkedin.svg') center no-repeat;
+}
+.footerBox .shareBox ul li .instagram::before {
+  -webkit-mask: url('../images/icon/icon_instagram.svg') center no-repeat;
+  mask: url('../images/icon/icon_instagram.svg') center no-repeat;
 }
 .footerBox .goTop {
   color: #9fc91b;

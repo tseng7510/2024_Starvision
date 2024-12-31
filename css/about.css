@@ -1,5 +1,5 @@
 .about .bSpan {
-  color: #9FC91B;
+  color: #9fc91b;
   font-size: 1.75rem;
   font-weight: 800;
 }
@@ -34,7 +34,7 @@
   margin-bottom: 20px;
   font-size: 1.75rem;
   font-weight: 800;
-  color: #9FC91B;
+  color: #9fc91b;
 }
 @media screen and (max-width: 1027px) {
   .about .subTitle {
@@ -59,7 +59,7 @@
   margin-bottom: 5%;
 }
 .about .block2 {
-  background: #EFEFEF;
+  background: #efefef;
   padding: 4% 0;
 }
 .about .block2 .listBox {
@@ -78,16 +78,16 @@
   }
 }
 .about .block3 .bg {
-  content: "MISSION";
+  content: 'MISSION';
   position: absolute;
   font-size: 17.5rem;
   font-weight: 600;
-  color: #FFF;
+  color: #fff;
   top: 50%;
   transform: translateY(-50%);
   right: 0;
   line-height: 1;
-  text-shadow: -1px -1px 0 #E7E7E7, 1px -1px 0 #E7E7E7, -1px 1px 0 #E7E7E7, 1px 1px 0 #E7E7E7;
+  text-shadow: -1px -1px 0 #e7e7e7, 1px -1px 0 #e7e7e7, -1px 1px 0 #e7e7e7, 1px 1px 0 #e7e7e7;
 }
 @media screen and (max-width: 1400px) {
   .about .block3 .bg {
@@ -131,7 +131,7 @@
   }
 }
 .about .block4 .blockTitle {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 1027px) {
   .about .block4 .blockTitle {
@@ -178,7 +178,7 @@
 .about .block5 .listBox .item {
   width: 100%;
   padding: 30px;
-  background: #EFEFEF;
+  background: #efefef;
 }
 @media screen and (min-width: 1028px) {
   .about .block5 .listBox .item {
@@ -187,7 +187,7 @@
   }
 }
 .about .block5 .listBox .item .title {
-  color: #9FC91B;
+  color: #9fc91b;
   font-size: 1.75rem;
   font-weight: 800;
   margin-bottom: 20px;
@@ -204,7 +204,7 @@
   }
 }
 .about .block6 {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 4% 0 5%;
 }
 .about .block6 .blockTitle {
@@ -228,7 +228,7 @@
   }
 }
 .about .block6 .listBox .item .title {
-  color: #9FC91B;
+  color: #9fc91b;
   font-size: 1.75rem;
   font-weight: 800;
 }
@@ -257,7 +257,7 @@
 .about .block6 .listBox .item + .item {
   margin-top: 5%;
   padding-top: 5%;
-  border-top: #CFD0D1 1px solid;
+  border-top: #cfd0d1 1px solid;
 }
 .about .block6 .tabBox {
   width: 45%;
@@ -277,8 +277,8 @@
   position: absolute;
   right: 0;
   top: 0;
-  color: #FFF;
-  background: #9FC91B;
+  color: #fff;
+  background: #9fc91b;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
@@ -301,7 +301,7 @@
   }
 }
 .about .block6 .slick-dots button {
-  background: #FFF;
+  background: #fff;
   opacity: 0.7;
   color: transparent;
   width: 13px;
@@ -321,7 +321,7 @@
 }
 .about .block6 .slick-dots .slick-active button {
   opacity: 1;
-  background: #9FC91B;
+  background: #9fc91b;
 }
 .about .block7 {
   padding: 4% 0 0;
@@ -333,7 +333,7 @@
   text-align: center;
   padding-bottom: 30px;
   overflow-x: auto;
-  scrollbar-color: #9FC91B rgba(0, 0, 0, 0.2);
+  scrollbar-color: #9fc91b rgba(0, 0, 0, 0.2);
   scrollbar-width: thin;
   background: #fff;
 }
@@ -344,7 +344,7 @@
 .about .block7 .content::-webkit-scrollbar-thumb {
   border-radius: 100px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-  background: #9FC91B;
+  background: #9fc91b;
 }
 .about .block7 .content::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
@@ -357,16 +357,16 @@
   color: #fff;
   padding: 20px;
   font-weight: 600;
-  background: #9FC91B;
+  background: #9fc91b;
   margin: 0 auto 30px;
   position: relative;
 }
 .about .block7 .top::after {
-  content: "";
+  content: '';
   width: 1px;
   height: 30px;
   display: block;
-  background: #DDDDDD;
+  background: #dddddd;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -391,28 +391,28 @@
   left: auto;
 }
 .about .block7 .listBox > li::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 1px;
   left: 0;
   top: 0;
-  background: #DDDDDD;
+  background: #dddddd;
 }
 .about .block7 .listBox > li::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 1px;
   height: 30px;
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  background: #DDDDDD;
+  background: #dddddd;
 }
 .about .block7 .listBox > li .sec {
   text-align: center;
   height: 100px;
-  background: #B4B4B4;
+  background: #b4b4b4;
   color: #fff;
   display: flex;
   align-items: center;
@@ -434,23 +434,23 @@
   position: relative;
 }
 .about .block7 .listBox > li li::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 1px;
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  background: #DDDDDD;
+  background: #dddddd;
 }
 .about .block7 .listBox > li li::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 1px;
   height: 130%;
   left: 10px;
   bottom: 50%;
-  background: #DDDDDD;
+  background: #dddddd;
 }
 .about .block7 .listBox > li li .thi {
   text-align: left;
@@ -459,12 +459,12 @@
   min-height: 60px;
   padding: 10px;
   color: #333333;
-  border: #DDDDDD 1px solid;
+  border: #dddddd 1px solid;
   background: none;
 }
 
 .about2 .bSpan {
-  color: #9FC91B;
+  color: #9fc91b;
   font-size: 1.75rem;
   font-weight: 800;
 }
@@ -499,7 +499,7 @@
   margin-bottom: 20px;
   font-size: 1.75rem;
   font-weight: 800;
-  color: #9FC91B;
+  color: #9fc91b;
 }
 @media screen and (max-width: 1027px) {
   .about2 .subTitle {
@@ -526,12 +526,12 @@
   padding-left: 20px;
 }
 .about2 .description ul li::before {
-  content: "";
+  content: '';
   width: 8px;
   height: 8px;
   display: block;
   border-radius: 50%;
-  background: #9FC91B;
+  background: #9fc91b;
   position: absolute;
   top: 8px;
   left: 0;
@@ -568,7 +568,7 @@
   }
 }
 .about2 .block2 .listBox .item {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 @media screen and (min-width: 768px) {
   .about2 .block2 .listBox .item {
@@ -580,7 +580,7 @@
   padding: 10%;
 }
 .about2 .block2 .listBox .item .title {
-  color: #9FC91B;
+  color: #9fc91b;
   font-weight: 800;
   margin-bottom: 20px;
   font-size: 1.75rem;
@@ -640,7 +640,7 @@
 .about2 .block3 .listBox .item + .item {
   padding-top: 45px;
   margin-top: 45px;
-  border-top: #CFD0D1 1px solid;
+  border-top: #cfd0d1 1px solid;
 }
 .about2 .block3 .listBox .title {
   color: #000;
@@ -663,7 +663,7 @@
   }
 }
 .about2 .block4 .title {
-  color: #9FC91B;
+  color: #9fc91b;
   font-weight: 800;
   margin-bottom: 20px;
   font-size: 1.75rem;
@@ -688,7 +688,7 @@
   }
 }
 .about2 .block5 .content {
-  border: #EEEEEE 8px solid;
+  border: #eeeeee 8px solid;
   padding: 3% 30px;
 }
 @media screen and (max-width: 767px) {
@@ -721,7 +721,7 @@
   }
 }
 .about2 .block5 .info .title {
-  color: #9FC91B;
+  color: #9fc91b;
   font-weight: 800;
   margin-bottom: 20px;
   font-size: 1.75rem;
@@ -748,10 +748,10 @@
   font-weight: 800;
 }
 .about2 .block5 .picBox .st2 {
-  fill: #D84C96;
+  fill: #d84c96;
 }
 .about2 .block5 .picBox .font {
-  fill: #FFFFFF;
+  fill: #ffffff;
   font-size: 26px;
   font-weight: 800;
   opacity: 0;
@@ -781,4 +781,4 @@
   100% {
     opacity: 1;
   }
-}/*# sourceMappingURL=about.css.map */
+} /*# sourceMappingURL=about.css.map */

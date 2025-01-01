@@ -130,8 +130,8 @@
                       <svg viewBox="0 0 387.7 376.8" style="enable-background:new 0 0 387.7 376.8;" xml:space="preserve">
                         <g class="svgTitle">
                           <text transform="matrix(1 0 0 1 139.6407 173.8537)">
-                            <tspan x="0" y="0" class="st0">Process</tspan>
-                            <tspan x="-43" y="36" class="st0">Management</tspan>
+                            <tspan x="12" y="0" class="st0">Process</tspan>
+                            <tspan x="-20" y="36" class="st0">Management</tspan>
                           </text>
                         </g>
                         <g class="font p1">

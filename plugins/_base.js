@@ -360,7 +360,7 @@ function mobileMenu(maxWidth) {
     $('body').toggleClass('mobileOpen');
     $('.menuMember.active,.language.active').removeClass('active').find('ul').slideUp();
     $('.menuSearch').removeClass('active');
-    $('.mainMenu > ul > li').eq(2).find('.nextMenuBox').addClass('active');
+    $('.mainMenu > ul > li').eq(3).find('.nextMenuBox').addClass('active');
   });
 }
 
